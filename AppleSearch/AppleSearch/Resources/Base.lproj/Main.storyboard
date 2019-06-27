@@ -40,6 +40,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="Om6-U6-WQb" secondAttribute="height" multiplier="1:1" id="4NN-Ei-se1"/>
+                                                        <constraint firstAttribute="height" constant="128" id="JKY-HM-zgl"/>
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Ozu-N7-lHs">

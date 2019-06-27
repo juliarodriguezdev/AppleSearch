@@ -17,8 +17,8 @@ struct AppleItem: Codable {
     
     let track: String
     let artist: String
-    let album: String
-    let imageURL: URL
+    let album: String?
+    let imageURL: URL?
     
     enum CodingKeys: String, CodingKey {
         

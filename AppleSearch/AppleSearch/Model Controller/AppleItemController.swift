@@ -57,7 +57,7 @@ class AppleItemController {
     
     static func fetchImageFor(appleItem: AppleItem, completion: @escaping (UIImage?) -> Void) {
         
-        let url = appleItem.imageURL
+        guard let url = appleItem.imageURL else { completion(nil);return }
         
         URLSession.shared.dataTask(with: url) { (data, _, error) in
             if let error = error {
