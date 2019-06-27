@@ -11,6 +11,8 @@
 		6A3220B922C5233800F80D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A3220B722C5233800F80D2D /* Main.storyboard */; };
 		6A3220BB22C5233A00F80D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A3220BA22C5233A00F80D2D /* Assets.xcassets */; };
 		6A3220BE22C5233A00F80D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A3220BC22C5233A00F80D2D /* LaunchScreen.storyboard */; };
+		6A3220C722C5258A00F80D2D /* AppleItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3220C622C5258A00F80D2D /* AppleItemTableViewController.swift */; };
+		6A3220CA22C525F800F80D2D /* AppleItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3220C922C525F800F80D2D /* AppleItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		6A3220BA22C5233A00F80D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A3220BD22C5233A00F80D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A3220BF22C5233A00F80D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A3220C622C5258A00F80D2D /* AppleItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemTableViewController.swift; sourceTree = "<group>"; };
+		6A3220C922C525F800F80D2D /* AppleItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +56,31 @@
 		6A3220B222C5233800F80D2D /* AppleSearch */ = {
 			isa = PBXGroup;
 			children = (
+				6A3220C522C5238D00F80D2D /* Resources */,
+				6A3220C822C5258E00F80D2D /* View Controller */,
+			);
+			path = AppleSearch;
+			sourceTree = "<group>";
+		};
+		6A3220C522C5238D00F80D2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				6A3220B322C5233800F80D2D /* AppDelegate.swift */,
 				6A3220B722C5233800F80D2D /* Main.storyboard */,
 				6A3220BA22C5233A00F80D2D /* Assets.xcassets */,
 				6A3220BC22C5233A00F80D2D /* LaunchScreen.storyboard */,
 				6A3220BF22C5233A00F80D2D /* Info.plist */,
 			);
-			path = AppleSearch;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6A3220C822C5258E00F80D2D /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A3220C622C5258A00F80D2D /* AppleItemTableViewController.swift */,
+				6A3220C922C525F800F80D2D /* AppleItemTableViewCell.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3220CA22C525F800F80D2D /* AppleItemTableViewCell.swift in Sources */,
 				6A3220B422C5233800F80D2D /* AppDelegate.swift in Sources */,
+				6A3220C722C5258A00F80D2D /* AppleItemTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
